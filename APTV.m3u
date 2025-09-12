@@ -1,8 +1,7 @@
-http://101.35.240.114:88/live.php?id=CHC动作电影
 #EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://live.fanmingming.cn/tv/凤凰卫视中文台.png" http-user-agent="iPhone" group-title="APTV专享",凤凰卫视中文台
 http://148.135.93.213/phenix.php?id=fhzw
 #EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://live.fanmingming.cn/tv/凤凰卫视资讯台.png" http-user-agent="iPhone" group-title="APTV专享",凤凰卫视资讯台
-
+http://148.135.93.213/phenix.php?id=fhzx
 #EXTM3U
 #EXTINF:-1,CCTV1
 http://192.168.100.44:4111/udp/239.253.228.77:8000
