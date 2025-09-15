@@ -1,27 +1,18 @@
 
 #EXTM3U
-#EXTINF:-1 group-title="香港频道",翡翠台
-https://iptv.catvod.com/catvod_com.php?id=jade_twn&token=57e5b5ff8d7e6e02d3f00f27baa3a1f9813928f7426e1900404156f7bed0d684%3A1757730628
-#EXTINF:-1 group-title="香港频道",翡翠台 backup
-https://iptv.catvod.com/catvod_com.php?id=Jade_xue&token=a45743f694f23546501fe808ed9b03f360863f7394d5ac3568101e6aa3d53508%3A1757730628
-#EXTINF:-1 group-title="香港频道",iNews 新闻台
-https://iptv.catvod.com/catvod_com.php?id=inews_twn&token=d9056db9693e0110fa02969981190c6b0d4101305fca71110a4df422c34afba7%3A1757730628
-#EXTINF:-1 group-title="香港频道",J 2
-https://iptv.catvod.com/catvod_com.php?id=j2_twn&token=e06e60e9d0effc2190415b1909510efcefa255f8b1b19437efe41fe13773b1f3%3A1757730628
-#EXTINF:-1 group-title="香港频道",珍珠台
-https://iptv.catvod.com/catvod_com.php?id=pearl_twn&token=d3c483ac758853919a6990a428c7554cf37776b677aa2b6b2610269bf78b253b%3A1757730628
-#EXTINF:-1 group-title="香港频道",凤凰香港
-https://iptv.catvod.com/catvod_com.php?id=hkphoenix_twn&token=dde6a71c01b4b7ed7d002a356df8f988d5e57a7d1ccc11ecb4dde82b22775e5d%3A1757730628
-#EXTINF:-1 group-title="香港频道",凤凰卫视
-https://iptv.catvod.com/catvod_com.php?id=phoenixtv_hd&token=3c2c23a976913ac4b0d299d0de053da0cfb7b13c50dd42a9719658df0cd215ed%3A1757730628
-#EXTINF:-1 group-title="香港频道",凤凰资讯
-https://iptv.catvod.com/catvod_com.php?id=phoenixinfo_hd&token=a6ad780c174e139ec6832f6b40880f0ec46e1c254ac6a7808e7aa6a917a11c57%3A1757730628
-#EXTINF:-1 group-title="台湾频道",TVBS 欢乐台 （备份）
-https://iptv.catvod.com/catvod_com.php?id=tvbshuanle_twn&token=b95217fb8330261bccf883fb145d6eb1726566bd3014ec3592fb5339981ff958%3A1757730628
-#EXTINF:-1 group-title="台湾频道",民视 HD
-https://iptv.catvod.com/catvod_com.php?id=ftvhd_taiwan&token=092e987f807ac4e04f7116b7794084f43ba654b14dc4132a5dd0adbd9d94fe71%3A1757730628
-#EXTINF:-1 group-title="台湾频道",八大综合 GTV Metro
-https://iptv.catvod.com/catvod_com.php?id=badazhonghe&token=17a004ed68b985585339462945b574ffc7ffa1dcf8b5736cc1f385fc5a53b207%3A1757730628
+#EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/凤凰中文台.png" http-user-agent="iPhone" group-title="APTV专享" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",凤凰中文台
+http://101.35.240.114:88/phenix.php?id=fhzw
+#EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/凤凰资讯台.png" http-user-agent="iPhone" group-title="APTV专享" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",凤凰资讯台
+http://101.35.240.114:88/phenix.php?id=fhzx
+#EXTINF:-1 tvg-id="凤凰香港" tvg-name="凤凰香港" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/凤凰香港台.png" http-user-agent="iPhone" group-title="APTV专享" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",凤凰香港台
+http://101.35.240.114:88/phenix.php?id=fhhk
+#EXTINF:-1 tvg-id="香港卫视" tvg-name="香港卫视" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/香港卫视.png" http-user-agent="AptvPlayer-UA" group-title="APTV专享",香港卫视
+http://101.35.240.114:88/live.php?id=香港卫视
+#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/TVB翡翠台.png" http-user-agent="AptvPlayer-UA" group-title="APTV专享",TVB翡翠台
+http://101.35.240.114:88/live.php?id=翡翠台
+
+
+
 
 #EXTM3U
 #EXTINF:-1,group-title="中国APTV"，CCTV1 
